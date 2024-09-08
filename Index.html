@@ -1,0 +1,153 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TpingSpeed</title>
+    </head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+        *{
+            margin: 0px;
+            padding: 0px;
+            font-family: "Varela Round", sans-serif;
+        }
+        body{
+            background: linear-gradient(to top right, #9c6603eb 0%, #024928 90%);
+            background-repeat: no-repeat;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        h1{
+            color: white;
+            margin-bottom: 10px;
+        }
+        .container{
+            width: 100%;
+            max-width: 600px;
+            background-color: rgb(210, 201, 201);
+            border-radius: 10px;
+            padding: 20px;
+            position: relative;
+        }
+
+        .container input{
+            z-index: -10;
+            position: absolute;
+            opacity: 0;
+        }
+        #para{
+            background-color:  rgb(210, 201, 201);
+            color: rgb(120, 120, 120);
+        }
+        #para::selection{
+            background-color: #cf8e16eb;
+            color: black;
+        }
+        .containerin{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 20px;
+            background-color: #000000;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .result{
+            display: flex;
+            color: white;
+            justify-content: space-around;
+            width: 95%;
+        }
+        .result div{
+            align-items: center;
+            display: flex;
+            
+        }
+        .result p{
+            font-size: 15px;
+        }
+        .result .value{
+            font-size: 20px;
+            font-weight: bold;
+            background-color: #024928;
+            border-radius: 15px;
+            padding: 5px;
+            text-align: center;
+            width: 50px;
+            margin-left: 10px;
+        }
+        .result.name{
+            font-size: 15px;
+        }
+        .container button{
+            background-color: #8e6905;
+            display: flex;
+            border: none;
+            align-items: center;
+            flex-direction: column;
+            padding: 5px 20px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    </style>
+
+    <body>
+        <h1>Typing Speed Game</h1>
+        <br>
+        <div class = "container">
+            <input type = "text" class = "textInput"/>
+            
+            <div class = "background-text">
+                <p id="para">
+                    A 24 year old boy seeing out from the train’s window shouted…
+
+                    “Dad, look the trees are going behind!”
+                    
+                    Dad smiled and a young couple sitting nearby, looked at the 24 year old’s childish behavior with pity, suddenly he again exclaimed…
+                    
+                    “Dad, look the clouds are running with us!”
+                    
+                    The couple couldn’t resist and said to the old man…
+                    
+                    “Why don’t you take your son to a good doctor?” The old man smiled and said…“I did and we are just coming from the hospital, my son was blind from birth, he just got his eyes today.”
+                    
+                    Every single person on the planet has a story. Don’t judge people before you truly know them. The truth might surprise you.
+                </p>
+
+                <div class="containerin">
+                    <div class="result">
+                        
+                        <div class="time">
+                            <p class="name"> Time</p>
+                            <p class="value">60 s</p>
+                        </div>
+                        
+                        <div class="wpm">
+                            <p class="name">WPM</p>
+                            <p class="value">0</p>
+                        </div>
+                        
+                        <div class="mistake">
+                            <p class="name">Mistakes</p>
+                            <p class="value">0</p>
+                        </div>
+
+                        <div class="cpm">
+                            <p class="name">CPM</p>
+                            <p class="value">0</p>
+                        </div>
+
+                    </div>
+                    <button>Start</button>
+                </div>
+            </div>
+
+        </div>
+    </body>
+    </html>
