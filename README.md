@@ -23,7 +23,7 @@ This Typing Practice Application helps users improve their typing speed and accu
 
 ## Demo
 
-![image](https://github.com/user-attachments/assets/8fb4527a-c136-474b-bd94-68ba01d8022b)
+![image](https://github.com/user-attachments/assets/93ebe2d6-2645-4ec6-9a85-383084ac76bb)
 
 ## Setup and Usage
 
