@@ -16,8 +16,8 @@
 3. **Track Your Progress**: Observe your WPM, CPM, mistakes, and time remaining in the game.
 4. **Reset**: Click the "Reset" button to start a new game.
 
-##Customization
-#Add New Paragraphs
+## Customization
+## Add New Paragraphs
 You can easily add new paragraphs to the app by modifying the paragraphs array in the JavaScript section:
 
 
@@ -27,17 +27,17 @@ const paragraphs = [
     ...
 ];
 
-#Adjust Time Limit
+# Adjust Time Limit
 To change the time limit, update the maxTime variable in the JavaScript:
 
 let maxTime = 120;  // Time in seconds
 
-##Future Enhancements
-#Leaderboard: Implement a leaderboard feature to compare typing scores with other users.
-#Mobile Responsiveness: Improve the UI for better compatibility with mobile devices.
-#Difficulty Levels: Add different levels of typing difficulty (e.g., longer paragraphs or timed challenges).
+## Future Enhancements
+# Leaderboard: Implement a leaderboard feature to compare typing scores with other users.
+# Mobile Responsiveness: Improve the UI for better compatibility with mobile devices.
+# Difficulty Levels: Add different levels of typing difficulty (e.g., longer paragraphs or timed challenges).
 
-##Demo
+## Demo
 
 ![image](https://github.com/user-attachments/assets/17d151a0-7edb-48fa-a9f8-2c79368ff7de)
 
